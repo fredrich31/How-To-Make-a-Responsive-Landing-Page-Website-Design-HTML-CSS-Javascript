@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Website Design</title>
+    <meta name="keywords" content="footer, address, phone, icons" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+          </head> 
+        <body>
+          
+        
+          <div class="wrapper">
+            <header>
+                <div class="logo">
+                  <a href="#">Fredrich</a>
+                  </div>
+                  <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Feature</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                  <div class="toggle" onclick="toggleMenu();"><i class="fas fa-bars"></i></div>
+            </header>
 
+            <div class="content">
+              <div class="article">
+                <h1>Explore <br><span> A New Career </span></h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <div class="button">
+                  <a href="#">View More</a>
+                </div>
+                <div class="social">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+<script type="text/javascript">
+
+function toggleMenu(){
+    var menuToggle = document.querySelector('.toggle');
+    var navbar = document.querySelector('.navbar');
+    navbar.classList.toggle('active')
+}
+
+  </script>
+
+    <script src="js/script.js"></script> 
+    
+  </body>
+</html>
